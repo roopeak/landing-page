@@ -28,11 +28,11 @@ a:active {
 .hero {
     background-color: #1F2937;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     height: 400px;
-    border: 2px solid black;
 }
 
 .heromain {
@@ -64,4 +64,15 @@ button {
     width: 140px;
     border-radius: 8px;
     border: none;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info {
+    display: flex;
+    border: 2px solid black;
 }
