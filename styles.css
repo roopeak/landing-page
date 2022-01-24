@@ -1,7 +1,67 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
     background-color: #1F2937;
-    
+}
+
+.links {
+    display:flex;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+ul,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
     border: 2px solid black;
+}
+
+.heromain {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    height: fit-content;
+    width: 400px;
+} 
+
+.herosecondary {
+    display: flex;
+    font-size: 18px;
+    color: #F9FAF8;
+    height: fit-content;
+    width: 500px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    height: fit-content;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
 }
