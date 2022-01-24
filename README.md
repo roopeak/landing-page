@@ -1,2 +1,8 @@
 # landing_page
 This is my first fully functional webpage which is a part of The Odin Project.
+
+Images used:
+https://pixabay.com/photos/labrador-retriever-dog-pet-1210559/ Image by Chiemsee2016 from Pixabay
+https://pixabay.com/photos/dog-pet-canine-animal-fur-snout-3277416/ Image by Péter Göblyös from Pixabay
+https://pixabay.com/photos/maltese-dog-puppy-small-dog-1123016/ Image by Pezibear from Pixabay
+https://pixabay.com/photos/dog-corgi-cute-animal-4988985/ Image by Lucio Liu from Pixabay
