@@ -4,6 +4,8 @@
     flex-direction: row;
     align-items: center;
     background-color: #1F2937;
+    height: 100px;
+    color: white;
 }
 
 .links {
@@ -62,7 +64,7 @@ button {
     padding: 5px;
     height: fit-content;
     width: 140px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: none;
 }
 
@@ -74,5 +76,113 @@ button {
 
 .info {
     display: flex;
-    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    height: 70px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.dog {
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 30px;
+}
+
+.text1 {
+    display: flex;
+    height: 80px;
+    width: 125px;
+}
+
+.text2 {
+    display: flex;
+    height: 80px;
+    width: 125px;
+}
+
+.text3 {
+    display: flex;
+    height: 80px;
+    width: 125px;
+}
+
+.text4 {
+    display: flex;
+    height: 80px;
+    width: 125px;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 350px;
+    gap: 5px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color:  #1F2937;
+    height: fit-content;
+    width: 600px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    width: 500px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.containerheader {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signupcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    gap: 15px;
+}
+
+.lowerbutton {
+    border: 2px solid white;
+    border-radius: 5px;
 }
