@@ -1,4 +1,4 @@
-# landing_page
+# landing-page
 This is my first fully functional webpage which is a part of The Odin Project.
 
 Images used:
