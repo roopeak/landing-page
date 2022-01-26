@@ -1,5 +1,6 @@
 # landing-page
 This is my first fully functional webpage which is a part of The Odin Project.
+Took me about eight hours to finish on January 26th 2022.
 
 Images used:
 
