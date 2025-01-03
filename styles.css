@@ -18,15 +18,39 @@ header {
 .top-div {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	padding: 5em;
+	justify-content: center;
+	padding: 7em;
 	color: white;
 	background-color: #1F2937;
 }
 
 .top-div-text {
+	height: 15em;
+	width: 35em;
 	display: flex;
 	flex-direction: column;
+
+	/* border: 1px solid red; */
+}
+
+.top-div-button {
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: #3882F6;
+	width: 10em;
+}
+
+.top-div-image {
+	display: flex;
+	height: 15em;
+	width: 45em;
+	margin-left: 3em;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+
+	/* border: 1px solid red; */
 }
 
 .quote-div {
