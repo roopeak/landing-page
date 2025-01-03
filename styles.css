@@ -105,6 +105,24 @@ header {
 	/* border: 1px solid red; */
 }
 
+.quote-div {
+	padding: 7em;
+
+	/* border: 1px solid red; */
+}
+
+.quote-text {
+	font-size: 36px;
+
+	/* border: 1px solid red; */
+}
+
+.quote-author {
+	text-align: end;
+	/* border: 1px solid red; */
+
+	font-weight: bold;
+}
 
 footer {
 	background-color: #1F2937;
