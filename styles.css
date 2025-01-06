@@ -30,21 +30,33 @@ header {
 	background-color: #1F2937;
 }
 
+.top-div-text > h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.top-div-text > p {
+	font-size: 18px;
+	color: #E5E7EB
+}
+
 .top-div-text {
 	height: 15em;
 	width: 35em;
 	display: flex;
 	flex-direction: column;
-
-	/* border: 1px solid red; */
+	justify-content: space-around;
 }
 
 .top-div-button {
-	display: flex;
-	justify-content: center;
+	border: none;
+	border-radius: 10px;
+	width: 8em;
+	height: 2.5em;
 	color: white;
+	font-weight: bold;
+	font-size: 1em;
 	background-color: #3882F6;
-	width: 10em;
 }
 
 .top-div-image {
@@ -55,8 +67,6 @@ header {
 	background-color: gray;
 	align-items: center;
 	justify-content: center;
-
-	/* border: 1px solid red; */
 }
 
 .quote-div {
@@ -66,18 +76,15 @@ header {
 .center-div {
 	display: flex;
 	flex-direction: column;
-
 	text-align: center;
-
-	/* border: 1px solid red; */
+	padding: 3em;
 }
 
 .center-div-images {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	
-	/* border: 1px solid red; */
+	padding-top: 3em;
 }
 
 .image1,
@@ -86,15 +93,16 @@ header {
 .image4 {
 	width: 10em;
 	height: 10em;
-	background-color: gray;
-
-	/* border: 1px solid red; */
+	border: 2px solid #3882F6;
+	border-radius: 15px;
 }
 
 .center-div-image-texts {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 .image1-text,
@@ -102,27 +110,20 @@ header {
 .image3-text,
 .image4-text {
 	width: 10em;
-
-	/* border: 1px solid red; */
 }
 
 .quote-div {
 	padding: 7em;
-
-	/* border: 1px solid red; */
 }
 
 .quote-text {
 	font-size: 36px;
-	font-style: italic;
+	font-style: light italic;
 	color: #1F2937;
-	/* border: 1px solid red; */
 }
 
 .quote-author {
 	text-align: end;
-	/* border: 1px solid red; */
-
 	font-weight: bold;
 }
 
@@ -137,6 +138,7 @@ header {
 	background-color: #3882F6;
 	padding: 4em;
 	border-radius: 10px;
+
 }
 
 .sign-up-div-text {
